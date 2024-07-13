@@ -1,0 +1,10 @@
+[book]
+authors = ['Martin Franke']
+language = "en"
+multilingual = false
+src = "text"
+title = "IO"
+description = "Official IO chain"
+
+[output.html]
+cname = "substrate.recipes"

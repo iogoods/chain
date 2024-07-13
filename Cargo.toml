@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    'runtime',
+    'nodes/poscan-consensus',
+]
+[profile.release]
+panic = 'unwind'

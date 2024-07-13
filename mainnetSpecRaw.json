@@ -1,0 +1,30 @@
+{
+  "name": "IO - The Ledger of Things",
+  "id": "io",
+  "chainType": "Live",
+  "bootNodes": [
+    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWNrWKAj3Z3DHqxHVCFoYyYzLt342jP8HSpcPDC5Xj8Bmj",
+    "/ip4/221.15.185.232/tcp/30333/p2p/12D3KooWFsqBqW8dosLmB83Rw9Ahsikgh69hNwpNsp9KZ9qjqkGn"
+  ],
+  "telemetryEndpoints": [
+    [
+      "/dns/submit.telemetry.iogoods.de/tcp/443/x-parity-wss/%2Fsubmit",
+      0
+    ]
+  ],
+  "protocolId": "io",
+  "properties": {
+    "ss58Format": 71,
+    "tokenDecimals": 12,
+    "tokenSymbol": "io"
+  },
+  "codeSubstitutes": {},
+  "genesis": {
+    "raw": {
+      "top": {
+       
+      },
+      "childrenDefault": {}
+    }
+  }
+}

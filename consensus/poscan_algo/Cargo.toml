@@ -1,0 +1,41 @@
+[package]
+name = 'poscan-algo'
+version = "3.0.0"
+edition = '2018'
+authors = ['Substrate DevHub <https://github.com/substrate-developer-hub>']
+repository = 'https://github.com/substrate-developer-hub/recipes'
+description = 'Sha3-based Proof of Work algorithms for Substrate'
+license = "GPL-3.0-or-later"
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.1", default-features = false, features = ["derive"] }
+scale-info = { version = "2.0", default-features = false, features = ["derive"] }
+lazy_static = { version = "1.4.0" }
+lzss = { version = "0.8", default-features = false, features = ["alloc"] }
+parking_lot = "0.12"
+
+# Substrate packages
+sp-runtime-interface = { default-features = false, git = "https://github.com/paritytech/substrate", rev = "b0777b4c7f7" }
+sp-consensus-poscan = { default-features = false, version = "0.9", path = "../../primitives/consensus/poscan" }
+sp-core = { default-features = false, git = "https://github.com/paritytech/substrate", rev = "b0777b4c7f7" }
+sp-std = { default-features = false, git = "https://github.com/paritytech/substrate", rev = "b0777b4c7f7" }
+sp-runtime = { default-features = false, git = "https://github.com/paritytech/substrate", rev = "b0777b4c7f7" }
+sp-blockchain = { optional = true, git = "https://github.com/paritytech/substrate", rev = "b0777b4c7f7" }
+log = "0.4"
+
+p3d = { version="0.7.0", git="https://github.com/3Dpass/p3d", rev="5eed8192" }
+
+tri-mesh = { version = "0.5.0", git = "https://github.com/3Dpass/tri-mesh", branch = "dev", default-features = false }
+obj-rs = { version = "0.7", git = "https://github.com/3Dpass/obj-rs", branch = "dev", default-features = false }
+ndarray = { version = "0.15", git = "https://github.com/3Dpass/ndarray", branch = "dev", default-features = false }
+
+[features]
+default = ["std"]
+std = [
+   "sp-std/std",
+   "sp-core/std",
+   "sp-runtime-interface/std",
+   "sp-runtime/std",
+   "sp-consensus-poscan/std",
+   "sp-blockchain",
+]

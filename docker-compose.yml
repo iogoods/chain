@@ -1,0 +1,20 @@
+services:
+  miner:
+    container_name: "miner"
+    build:
+      context: .
+      dockerfile: docker/miner.Dockerfile
+    links:
+      - "node:node"
+
+  node:
+    container_name: "node"
+    build:
+      context: .
+      dockerfile: docker/node.Dockerfile
+    volumes:
+      - ./data/chain:/var/chain
+    ports:
+      - "0.0.0.0:9944:9944"
+      - "0.0.0.0:9933:9933"
+      - "0.0.0.0:30333:30333"
