@@ -31,7 +31,7 @@ putObject(
 
 `category` - the object category: 
 - `Objects3D`: 
-   - `Grid2dLow` - Grid2d algorithm (low precision), preset: `-s 12 -g 8 -a grid2d_v3a` (see more [pass3d](https://github.com/ioass/pass3d) recognition toolkit to learn about Grid2D algo parameters) ,
+   - `Grid2dLow` - Grid2d algorithm (low precision), preset: `-s 12 -g 8 -a grid2d_v3a` recognition toolkit to learn about Grid2D algo parameters) ,
    - `Grid2dHigh` - Grid2d algorithm (high precision),
 - `Drawings2D`, 
 - `Music`, 

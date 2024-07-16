@@ -1,6 +1,6 @@
-// This file is part of 3Dpass.
+// This file is part of IO.
 
-// Copyright (c) 2023 3DPass.
+// Copyright (c) 2023 IO.
 // Copyright (C) 2020-2022 Parity Technologies (UK) Ltd.
 // SPDX-License-Identifier: Apache-2.0
 

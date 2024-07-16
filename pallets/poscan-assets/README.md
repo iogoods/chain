@@ -1,6 +1,6 @@
 # poscanAssets Module
 
-A module for dealing with fungible and non-fungible assets issued as either independent currencies (tokens) or backed tokens (currencies backed by the object, according to [3DPRC-2](https://github.com/3Dpass/whitepaper/blob/main/3DPRC-2.md) tokenization standard rules). For example, the tokenization of the object properties, such as: share (%), grams, kilograms, square meters, etc. 
+A module for dealing with fungible and non-fungible assets issued as either independent currencies (tokens) or backed tokens (currencies backed by the object, according to [3DPRC-2](https://github.com/iogoods/whitepaper/blob/main/3DPRC-2.md) tokenization standard rules). For example, the tokenization of the object properties, such as: share (%), grams, kilograms, square meters, etc. 
 The module represents a modification of the [Assets](https://github.com/paritytech/substrate/tree/master/frame/assets) pallet provided by Substrate, so its API is quite similar. 
 
 ## Overview
@@ -18,13 +18,13 @@ The poscanAssets module provides such options as:
 * **Asset transfer:** The action of transferring assets from one account to another.
 * **Asset destruction:** The process of an account removing its entire holding of an asset.
 * **Fungible asset:** An asset, the units of which are interchangeable with one another.
-* **Non-fungible asset:** An asset representing one indivisible and unique unit. In th is particular module it stands for issuance an indivisible unit tethered to the object approved by the authentication protocol [3DPRC-2](https://github.com/3Dpass/whitepaper/blob/main/3DPRC-2.md). ERC-721 is not supported. 
+* **Non-fungible asset:** An asset representing one indivisible and unique unit. In th is particular module it stands for issuance an indivisible unit tethered to the object approved by the authentication protocol [3DPRC-2](https://github.com/iogoods/whitepaper/blob/main/3DPRC-2.md). ERC-721 is not supported. 
 
 ### Vision
 
 The `poscanAssets` module allows for:
 
-* Issuance of a unique asset and tether (or not to tether) it to the object previously approved by The Ledger of Things ([poScan](https://github.com/3Dpass/3DP/tree/main/pallets/poscan) module is being leveraged for the object authentication). The asset is possible to get tethered to one of the object properties like "non-fungible", "share", "grams", etc. And only one property must be chosen for the tokenization. It is prohibited to have the object tokenized twice simultaneously (ex. you cannot get tokenized both the object share and its weight, you have to pick up one). The object properties are managed by [poScan](https://github.com/3Dpass/3DP/tree/main/pallets/poscan) module, as well.
+* Issuance of a unique asset and tether (or not to tether) it to the object previously approved by The Ledger of Things ([poScan](https://github.com/iogoods/io/tree/main/pallets/poscan) module is being leveraged for the object authentication). The asset is possible to get tethered to one of the object properties like "non-fungible", "share", "grams", etc. And only one property must be chosen for the tokenization. It is prohibited to have the object tokenized twice simultaneously (ex. you cannot get tokenized both the object share and its weight, you have to pick up one). The object properties are managed by [poScan](https://github.com/iogoods/io/tree/main/pallets/poscan) module, as well.
 * Moving assets among accounts.
 * The assets management - collective ownership, decision making process, etc. 
 

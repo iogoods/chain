@@ -6,8 +6,8 @@ For example, block rewards are staying locked for a month after its creation.
 The pallet allows for creation numbers of mining pools the block rewards of which are going to be distributed among miners directly from the network without a middlemen 
 (as if they were to mine SOLO). This is guaranteed for miners and pool admins to get rewarded, irrespective to what kind of devices (CPU, GPU or whatever) they have connected with.
 
-In order to prove the miner's work there is an additional off-chain difficulty number being leveraged by the client app [pass3d-pool](https://github.com/3Dpass/pass3d-pool) and verified on the pool Node's side. The additional 
-difficulty is set up by the pool's admin. Every 10 sec the client app is requesting the pool Node (via the [RPC API](https://github.com/3Dpass/3DP/wiki/RPC-API-mining-pool-interaction)) for some necessary mining metadata.
+In order to prove the miner's work there is an additional off-chain difficulty number being leveraged by the client app [](https://github.com/iogoods/iopass3d-pool) and verified on the pool Node's side. The additional 
+difficulty is set up by the pool's admin. Every 10 sec the client app is requesting the pool Node (via the [](https://github.com/iogoods/io/wiki/RPC-API-mining-pool-interaction)) for some necessary mining metadata.
 
 There is a statistic report being saved by the pool Node every 20 blocks on the chain storage, which is available for everyone. Once the block is mined by the mining pool Node and accepted by the network, the block rewards are being 
 distributed directly in proportion to the input hashrate provided by each miner in the pool.

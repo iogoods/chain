@@ -1,7 +1,7 @@
 //! # Validator Set Pallet
 //!
-//! This file is part of 3DPass.
-//! Copyright (c) 2022 3DPass.
+//! This file is part of IO.
+//! Copyright (c) 2022 IO.
 //!
 //! The Validator Set Pallet allows for addition and removal of
 //! authorities/validators via extrinsics (transaction calls), in

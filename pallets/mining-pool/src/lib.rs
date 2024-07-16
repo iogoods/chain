@@ -1,7 +1,7 @@
 //! # Mining Pool Pallet
 //!
-//! This file is part of 3DPass.
-//! Copyright (c) 2023 3DPass.
+//! This file is part of IO.
+//! Copyright (c) 2023 IO.
 //!
 //! The Mining Pool Pallet allows for addition and removal of
 //! pool's admins and members via extrinsics (transaction calls)
