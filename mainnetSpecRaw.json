@@ -3,7 +3,6 @@
   "id": "io",
   "chainType": "Live",
   "bootNodes": [
-    "/ip4/127.0.0.1/tcp/30333/p2p/72fb8baf4e5cfacbb0e9318836e5e8b1b0e0032296bc9666af6f31206f53a65c",
     "/ip4/81.169.239.176/tcp/30333/p2p/72fb8baf4e5cfacbb0e9318836e5e8b1b0e0032296bc9666af6f31206f53a65c"
   ],
   "telemetryEndpoints": [
