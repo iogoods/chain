@@ -3,7 +3,9 @@
   "id": "IOgoods",
   "chainType": "Live",
   "bootNodes": [
-    "/ip4/37.157.249.162/tcp/30333/p2p/12D3KooWPtSEY4xcwkfc2BBFhBfDBgsv33C6Q91prz6GD3uH1KEy",
+    "/ip4/81.169.239.176/tcp/30333/p2p/12D3KooWBQ5gFGvYKpuTJTz1kngzMFBozKDayqwT2wNsHQTBcC1R",
+
+
     "/ip4/221.15.185.232/tcp/30333/p2p/12D3KooWFsqBqW8dosLmB83Rw9Ahsikgh69hNwpNsp9KZ9qjqkGn",
     "/ip4/146.19.24.10/tcp/30333/p2p/12D3KooWETQLiFMYEKk3Ztg9DRqCByRmwswru8acgGB2TendoQL9",
     "/ip4/65.108.130.174/tcp/30333/p2p/12D3KooWMC1iPZ7ngoq5umf7RapLjwGkiQFYApUZXXqr2AbvK9VW",
