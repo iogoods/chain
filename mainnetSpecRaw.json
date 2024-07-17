@@ -3,8 +3,8 @@
   "id": "io",
   "chainType": "Live",
   "bootNodes": [
-    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWFENcGhSKxvivos5Jz7fPnxM4toWvYEWHSpKqYZ9apzPv",
-    "/ip4/81.169.239.176/tcp/30333/p2p/12D3KooWFENcGhSKxvivos5Jz7fPnxM4toWvYEWHSpKqYZ9apzPv"
+    "/ip4/127.0.0.1/tcp/30333/p2p/72fb8baf4e5cfacbb0e9318836e5e8b1b0e0032296bc9666af6f31206f53a65c",
+    "/ip4/81.169.239.176/tcp/30333/p2p/72fb8baf4e5cfacbb0e9318836e5e8b1b0e0032296bc9666af6f31206f53a65c"
   ],
   "telemetryEndpoints": [
     [
@@ -22,7 +22,7 @@
   "genesis": {
     "raw": {
       "top": {
-       
+        "0x0c2d0df3767fc569b7d494f40f48b78e58b884a7f0a838f5b082fc3944f29f4c": "0x0000" 
       },
       "childrenDefault": {}
     }
