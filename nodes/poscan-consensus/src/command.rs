@@ -45,7 +45,7 @@ impl SubstrateCli for Cli {
 	}
 
 	fn support_url() -> String {
-		"https://github.com/iogoods/io/issues".into()
+		"https://github.com/IOchain/io/issues".into()
 	}
 
 	fn copyright_start_year() -> i32 {

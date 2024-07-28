@@ -1,6 +1,6 @@
 {
-  "name": "IOgoods - The Ledger of Things",
-  "id": "IOgoods",
+  "name": "IOchain - The Ledger of Things",
+  "id": "IOchain",
   "chainType": "Live",
   "bootNodes": [
     "/ip4/81.169.239.176/tcp/30333/p2p/12D3KooWBQ5gFGvYKpuTJTz1kngzMFBozKDayqwT2wNsHQTBcC1R",
@@ -20,11 +20,11 @@
   ],
   "telemetryEndpoints": [
     [
-      "/dns/submit.telemetry.iogoods.de/tcp/443/x-parity-wss/%2Fsubmit",
+      "/dns/submit.telemetry.IOchain.de/tcp/443/x-parity-wss/%2Fsubmit",
       0
     ]
   ],
-  "protocolId": "IOgoods",
+  "protocolId": "IOchain",
   "properties": {
     "ss58Format": 71,
     "tokenDecimals": 12,

@@ -35,7 +35,7 @@ async function main() {
 
   let count = 0;
   for (const account of accounts) {
-    console.log(`https://iogoods.de/account/${account.address} ➡️  ${BigInt(account.toSlash) / one_p3d}`);
+    console.log(`https://IOchain.de/account/${account.address} ➡️  ${BigInt(account.toSlash) / one_p3d}`);
     slash_args.push([account.address, BigInt(account.toSlash)]);
     if (++count >= limit) {
       break;

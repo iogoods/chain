@@ -1,7 +1,7 @@
 {
   "name": "io-miner",
   "version": "1.0.0",
-  "repository": "https://github.com/iogoods/io",
+  "repository": "https://github.com/IOchain/io",
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
